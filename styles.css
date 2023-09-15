@@ -1,0 +1,55 @@
+p{
+    text-align: center;
+    font-family: fantasy;
+}
+
+h1{
+    font-family: fantasy;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #e1dcdc;
+    overflow: scroll;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+
+    float: right;
+    color: #6d6262;
+    text-align: center;
+    font-family: fantasy;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+ 
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+
+  }
+ 
+  .front{
+    align-self: center;
+  }
+
+  .aboutMe{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+    top: 220px;
+    left: 270px;
+
+  }
