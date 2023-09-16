@@ -6,6 +6,9 @@ p{
 h1{
     font-family: fantasy;
 }
+h2{
+  font-family: fantasy;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -56,8 +59,21 @@ h1{
     .homeImg1
     {
         position: relative;
-        top: 50px;
+        top: 0px;
         left: 0px;
         right: 350px;
     }
 
+    .mine{
+      position: relative;
+      top: 0px;
+      left: 50px;
+    }
+
+  
+    .mineSweeper{
+      position: absolute;
+      top: 280px;
+      left: 1070px;
+
+    }
