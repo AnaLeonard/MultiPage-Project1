@@ -20,7 +20,7 @@ h2{
   /* Style the links inside the navigation bar */
   .topnav a {
 
-    float: right;
+    /* float: right; */
     color: #6d6262;
     text-align: center;
     font-family: fantasy;
@@ -94,4 +94,29 @@ h2{
       position: relative;
       top: 200px;
       left: 500px;
+    }
+
+    .artist{
+      position: absolute;
+      text-align: center;
+      font-family: fantasy;
+      font-size: 50px;
+      top: 100px;
+      left: 560px;
+    }
+
+    .artistImg{
+      position: absolute;
+      top: 120px;
+      left: 10px;
+    }
+
+    .artistImg2{
+      position: absolute;
+      top: 120px;
+      left: 1000px;
+    }
+
+    .checked {
+      color: orange;
     }
